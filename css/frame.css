@@ -1,0 +1,172 @@
+html{margin:0;padding:0;}
+body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,code,del,dfn,em,img,q,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,dialog,figure,footer,header,hgroup,nav,section{
+    margin:0;padding:0;
+    font-weight:inherit;font-style:inherit;
+    font-size:100%;font-family:inherit;
+    vertical-align:baseline}
+
+
+body {/*text-align:center;*/
+    background: url("/static/images/border-top.png") no-repeat scroll center top #F4F4F4;
+    /*background:#F4F6F4;
+    background-image:url('/static/images/background.png')
+    */
+    }
+a {text-decoration:none}
+
+form {}
+span {
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+    font-size: 13px;
+    line-height: 20px;
+}
+textarea {resize:none}
+
+
+
+
+/*nav*/
+#nav {height:80px;width:1263px;overflow:hidden;
+    position:relative; 
+    background:#E0E2E0;
+    border-bottom: 1px solid #D8D5CA;}
+    
+#logo{float:left;
+    margin:10px 0 0 60px;
+    /*background: url("/static/images/logo.png");
+    */
+}
+#menu {border-style: solid; border:red;
+    width:600px;
+    margin:0 0 0 50px;}
+.menu-item {float:left; 
+    padding:25px 0 0 20px;
+    width:100px; height:70px;
+    font:bold 24px/20px arial,sans-serif;
+    border-color: #BEC2C6 #BEC2C6 #A2A6A9;
+    border-radius: 2px 2px 2px 2px;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-width: 1px;
+}
+.menu-item:hover {
+    background: #DD4444;
+    color:white;
+}
+
+
+/*content*/
+#content{
+    background: url("/static/images/border-top.png") no-repeat scroll center top #F4F4F4;
+    padding:25px 0;
+}
+#main {float:left; width:820px;
+    margin: 0 0px 0 50px; 
+    border-style: solid;border:0}   
+    
+#right {float:left; width:300px; margin: 0 50px 0 10px;
+    border-style: solid;border:0}
+    
+#setting {}   
+    
+
+.tip{
+    float:left;
+    width:330px;height:500px;
+    border-radius: 6px 6px 6px 6px;
+    border: 1px solid #D8D5CA;
+    margin: 0 0 20px;
+    padding: 10px 20px;
+    background: -moz-linear-gradient(center top , #7677A8 10%, #ECEEEF 70%) repeat scroll 0 0 transparent;
+    border-color: #BEC2C6 #BEC2C6 #A2A6A9;
+    
+} 
+.tip textarea{float:left;
+    height:30px; width:250px;
+    border: 1px solid #CCCCCC;
+    border-radius: 2px 2px 2px 2px;
+    height: 36px;
+    overflow: hidden;
+    padding: 5px;
+    margin: 0 0 10px 0px;
+    vertical-align: bottom;    
+}
+.plans {
+    border-top: 1px solid #D8D5CA;
+    float:left;
+    width:300px;
+    margin 20px 0 0 0;
+}
+.plan {
+    border: 1px solid #CCCCCC;
+    background: #FEFEFE;
+    margin: 7px 0 0 0;
+    padding: 0 10px 0 10px;
+    height:25px;
+    border-radius: 3px;
+}
+.plan span.left{
+    float:right;
+}
+.plan span.right{
+    float:left;
+}
+
+
+
+
+
+#timeline{float:left;width:20px;height:500px;}
+
+
+
+#footer{height:80px;width:1263px;overflow:hidden;
+    position:relative; 
+    background:#FCFCFC;
+    border-top: 1px dotted #D8D5CA;
+}
+#footer-about{list-style:none;
+    float:right;
+}
+#footer-about li{
+    float:left;width:50px;
+    font:bold 12px/20px arial,sans-serif;
+}
+
+
+
+
+.btn{
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: -moz-linear-gradient(center top , #F6F7F8 0%, #ECEEEF 100%) repeat scroll 0 0 transparent;
+    border-color: #BEC2C6 #BEC2C6 #A2A6A9;
+    border-radius: 2px 2px 2px 2px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 #F8F8F8;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: normal !important;
+    outline: medium none;
+    padding: 4px 10px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+    white-space: nowrap;
+}
+.btn-submit{
+    background: -moz-linear-gradient(center top , #5BBBF9 0%, #29A2EF 100%) repeat scroll 0 0 transparent;
+    border-color: #1B8CE3 #1B8CE3 #1469AB;
+    box-shadow: 0 1px 0 #E7E7E7;
+    color: #FFFFFF;
+    text-shadow: 0 1px 0 #000000;
+    float:left;
+    height:18px;width:35px;
+    margin:7px 0 0 10px;
+}
